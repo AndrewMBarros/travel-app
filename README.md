@@ -1,3 +1,5 @@
+
+
 # Travel App
 
 **Plataforma de Solicitação de Viagens Corporativas**
@@ -123,7 +125,7 @@ O modelo principal é `TravelRequest`:
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/AndrewMBarros/flutter-travel-app
+git clone <url-do-repo>
 cd flutter-travel-app
 ```
 
