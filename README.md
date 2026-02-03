@@ -125,7 +125,7 @@ O modelo principal é `TravelRequest`:
 1. **Clone o repositório**
 
 ```bash
-git clone <url-do-repo>
+git clone https://github.com/AndrewMBarros/travel-app
 cd flutter-travel-app
 ```
 
@@ -152,4 +152,5 @@ flutter run
 - Implementar autenticação real via backend.
 - Dashboard: adicionar pesquisa e ordenação de solicitações.
 - Notificações em tempo real (Firebase ou WebSockets).
+
 - Adicionar testes unitários e de widgets para maior confiabilidade.
