@@ -37,7 +37,7 @@ class _TravelFormScreenState extends State<TravelFormScreen> {
     super.dispose();
   }
 
-  /// 🔔 Dialog de Aprovação/Rejeição
+  ///  Dialog de Aprovação/Rejeição
   Future<String?> _showApprovalDialog() async {
     return showDialog<String>(
       context: context,
@@ -266,3 +266,4 @@ class _TravelFormScreenState extends State<TravelFormScreen> {
     );
   }
 }
+
