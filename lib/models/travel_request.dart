@@ -38,7 +38,7 @@ class TravelRequest {
         approvalComment = approvalComment ?? '',
         approvedAt = approvedAt ?? '';
 
-  /// 🔒 Normaliza qualquer status vindo do n8n / Sheets
+  /// Normaliza qualquer status vindo do n8n / Sheets
   static String _normalizeStatus(dynamic value) {
     final s = value?.toString().trim().toLowerCase();
 
@@ -138,7 +138,7 @@ class TravelRequest {
     };
   }
 
-  /// ✅ Converte snake_case OU camelCase (n8n / Sheets / API)
+  ///  Converte snake_case OU camelCase (n8n / Sheets / API)
   factory TravelRequest.fromMap(Map<String, dynamic> map) {
     return TravelRequest(
       id: map['id'] ?? map['request_id'] ?? '',
@@ -163,3 +163,4 @@ class TravelRequest {
   factory TravelRequest.fromJson(Map<String, dynamic> json) =>
       TravelRequest.fromMap(json);
 }
+
