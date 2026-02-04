@@ -22,7 +22,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   late List<TravelRequest> allRequests;
   late List<TravelRequest> displayedRequests;
 
-  String filter = 'todos'; // 👈 minúsculo
+  String filter = 'todos'; //  minúsculo
   bool isLoading = false;
 
   @override
@@ -218,3 +218,4 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 }
+
